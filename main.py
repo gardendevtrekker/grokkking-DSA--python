@@ -7,10 +7,7 @@ from ch1 import binary_search
 def main():
     print("Hello and welcome to the learning Data Structures and Algorithms with Pythons!")
 
-    my_list = [1, 3, 5, 7, 9]
-
-    print(binary_search.binarySearch(my_list, 3)) # => 1
-    print(binary_search.binarySearch(my_list, -1)) # => None
+    binary_search.bin_search_main()
 
 if __name__ == "__main__":
     main()

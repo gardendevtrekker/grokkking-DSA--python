@@ -11,3 +11,10 @@ def binarySearch(list, item):
     else:
       low = mid + 1    
   return None
+
+def bin_search_main():
+  print("Binary Search...")
+  my_list = [1, 3, 5, 7, 9]
+
+  print(binarySearch(my_list, 3)) # => 1
+  print(binarySearch(my_list, -1)) # => None
